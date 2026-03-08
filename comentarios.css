@@ -1,0 +1,99 @@
+/* comentarios */
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    width: 100%;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: 5ms;
+    font-family: 'Kdam Tnmor Pro', sans-serif;
+}
+
+li:hover {
+    color: #d21617;
+}
+
+#logo {
+    height: 100%;
+    width: auto;
+}
+
+#coment {
+    width: 100%;
+    height: 600px;
+    background-image: url('https://www.alexmansour.com/am/wp-content/uploads/2022/02/tema-charada-batman.jpeg');
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#comentario {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    /* position: relative; */
+    /* top: 100px; */
+    /* left: 610px; */
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#mensagem {
+    width: 500px;
+    background:none;
+    font-family: 'Kdam Tnmor Pro', sans-serif;
+    font-size: 19px;
+    border: 2px solid #000;
+    position: relative;
+}
+
+#text {
+    height: 40px;
+    width: 500px;
+    background: none;
+    font-family: 'Kdam Tnmor Pro', sans-serif;
+    font-size: 19px;
+    border: 2px solid #000;
+    position: relative;
+}
+
+#email {
+    height: 40px;
+    width: 500px;
+    background: none;
+    font-family: 'Kdam Tnmor Pro', sans-serif;
+    font-size: 19px;
+    border: 2px solid #000;
+    position: relative;
+}
